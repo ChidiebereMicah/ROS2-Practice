@@ -6,14 +6,15 @@ To run them as ROS2 nodes, they have to be in a ROS2 package which should be in 
 The nodes should be located in this directory: \\home\User\ros2_ws\src\<your_package_name>\<your_package_name>
 
 These dependencies are to be added to the package.xml file in the src folder in the workspace 
-  '''<depend>rclpy</depend>
-     <depend>geometry_msgs</depend>
-     <depend>turtlesim</depend>
-     <depend>math</depend>'''
+  #<depend>rclpy</depend>
+  #<depend>geometry_msgs</depend>
+  #<depend>turtlesim</depend>
+  #<depend>math</depend>'''
 
 The location of the package.xml file is \\home\User\ros2_ws\src\<your_package_name>\package.xml
 
 Remember to add the node to the setup.py file in \\home\User\ros2_ws\src\<your_package_name>\setup.py
+
 Nodes are added here:
 ...
 ...
