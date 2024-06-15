@@ -12,7 +12,7 @@ class MoveToPlaceNode(Node):
         self.cmd_vel_publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10 )
         self.pose_subscriber = self.create_subscription(Pose, "/turtle1/pose", self.pose_callback, 10)
         self.get_logger().info("The turtle will now move to a place")
-        #the turtles arfe to navigate to the point x:8 and y:8 in the turtlesim simulator
+        #the turtles are to navigate to the point x:8 and y:8 in the turtlesim simulator
         self.target_x = 8.0
         self.target_y = 8.0
         
